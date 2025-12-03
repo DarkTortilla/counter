@@ -30,6 +30,10 @@ body {
 .logo {
   height: 50px;
 }
+.container{
+  max-width: 600px;
+  margin: auto;
+}
 
 .button-section {
   display: flex;

@@ -1,4 +1,4 @@
-import React from 'react'
+import '../styles/Display.css'
 
 type DisplayProps = {
     data: number
@@ -6,6 +6,6 @@ type DisplayProps = {
 
 export default function Display({data}:DisplayProps) {
   return (
-    <div>{data}</div>
+    <div className='counter'>{data}</div>
   )
 }

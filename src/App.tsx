@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className='container'>
       <Display data={count}></Display>
 
       <div className='button-section'>
@@ -23,7 +23,7 @@ function App() {
         <Button type='secundary' text='Reiniciar' onClick={handleReste} />
       </div>
 
-    </>
+    </div>
   )
 }
 
