@@ -20,7 +20,6 @@ function App() {
 
       <div className='button-section'>
         <Button type='primary' text='incrementar' onClick={handleIncrement} />
-
         <Button type='secundary' text='Reiniciar' onClick={handleReste} />
       </div>
 
